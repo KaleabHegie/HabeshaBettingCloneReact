@@ -8,11 +8,11 @@ import Home from '../pages/Home';
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/HabeshaBettingCloneReact/",
         element: <MainNav />,
         children : [
           {
-              path: "/",
+              path: "/HabeshaBettingCloneReact/",
               element: <Home />
           },
       ]
